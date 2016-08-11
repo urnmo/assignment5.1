@@ -1,0 +1,23 @@
+
+$cellheight: 100%;
+
+
+//header {@include grid-row();
+
+    //h1{
+        //@include grid-column(12);
+        //text-align: center;
+       // height: $cellheight;
+   // }
+
+ 
+//body > header, body > section, body > footer {}
+
+header > section {@include grid-row();
+
+        div, nav {@include grid-column(4);
+        text-align: center;
+        }
+
+}
+

@@ -1,0 +1,36 @@
+
+
+@import '../node_modules/foundation-sites/scss/foundation.scss';
+
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+@import 'header';
+@import 'body';
+@import 'footer';
+
+/*.big-appear { display: none;
+    @include breakpoint(medium) {
+            display: block;
+
+    }
+}
+
+#countyfair {
+    .big-shrink {
+       @include breakpoint(medium) {
+            @include grid-column(4);
+
+       }
+ }
+
+.big-appear {
+      @include breakpoint(medium) {
+               @include grid-column(8);
+    
+        }
+   }
+}*/
+
+body {background-color: red;}
